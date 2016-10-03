@@ -1,0 +1,139 @@
+*{
+	padding:0;
+	margin:0;
+}
+html{
+    position:relative;
+}
+body{
+	background: url("../images/fon-om.png") no-repeat center center;
+	min-width: 1200px;
+	background-attachment: fixed;
+ 	background-size: cover;
+
+}
+html,body{
+    min-height:100%;
+}
+.avt{
+	margin-right: 20px;
+}
+.avtoriz{
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 10px;
+  width: 180px;
+  height: 45px;
+  background: #fff;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  position: absolute;right: 20px; top:24px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-out;
+  border: 1px solid #fff;
+}
+.avt a{
+	font-family: "Roboto-Medium";
+    color: #fff;
+}
+.avtoriz:hover,
+.avtoriz:focus,
+.avtoriz:active {
+  background: #fff;
+  color: #00bfa5;
+  transition: all 0.5s ease-in;
+}
+.avtoriz:focus {
+  outline: none;
+}
+.ava{
+	width: 380px;
+	background-color: #fff;
+	opacity: 0.8;
+	margin: 147px auto;
+	border-radius: 5px;
+}
+.ava-r{
+	border-radius: 100px;
+    border: 3px solid #fff;
+}
+.my-ava{
+	text-align: center;
+	padding-top: 35px;
+}
+.my-ava h3{
+	font:28px "Roboto-Medium";
+    color: #455a64;
+    margin-top: 24px;
+}
+.my-ava p{
+	font: 16px/24px "Roboto-Regular";
+	color: #455a64;
+}
+.links{
+	margin: 33px auto 40px;
+	width: 150px;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+.links>.sn-vk{
+	background-image: url(../images/vk-vh1.png);
+	width: 31px;
+	height: 17px;
+}
+.links>.sn-git{
+	background-image: url(../images/github-vh1.png);
+	width: 26px;
+	height: 22px;	
+}
+.links>.sn-in{
+	background-image: url(../images/in_hover-vh1.png);
+	width: 24px;
+	height: 22px;
+}
+.links>.sn-vk:hover{
+	background-image: url(../images/vk-vh2.png);
+}
+.links>.sn-git:hover{
+	background-image: url(../images/github-vh2.png);
+}
+.links>.sn-in:hover{
+	background-image: url(../images/in_hover-vh2.png);
+}
+.button{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+button {
+	height: 45px; 
+	background-color: #00bfa5; 
+	color: #fff; 
+	font: 16px "Roboto-Medium"; 
+	border: 0; 
+	padding: 0 31px;
+	margin-right: 1px;
+} 
+button:hover { 
+background-color: #009688; 
+}
+body>footer{
+	padding: 15px 0;
+	position: absolute;
+	bottom: 0;
+    width: 100%;
+	min-width:1200px;
+	}
+body>footer p{
+	font: 16px/100px "Roboto-Light";
+	color:#fff;
+	text-align:center;
+	opacity:0.5;
+    width: 520px;
+    margin: 0 auto;
+}

@@ -1,0 +1,339 @@
+@font-face {
+	font-family: "__MACOSX";
+	src: url("../fonts/__MACOSX/._BERNIERDistressed-Regular.otf"),
+		url("../fonts/__MACOSX/._BERNIERRegular-Regular.otf"),
+		url("../fonts/__MACOSX/._BERNIERShade-Regular.otf");
+}
+@font-face {
+	font-family: "BERNIERRegular";
+	src: url("../fonts/bernier/BERNIERDistressed-Regular.otf"),
+		url("../fonts/bernier/BERNIERRegular-Regular.otf"),
+		url("../fonts/bernier/BERNIERShade-Regular.otf");
+}
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/roboto/Roboto-Bold.ttf"),
+		url("../fonts/roboto/Roboto-BoldItalic.ttf"),
+		url("../fonts/roboto/Roboto-Italic.ttf"),
+		url("../fonts/roboto/Roboto-Light.ttf"),
+		url("../fonts/roboto/Roboto-LightItalic.ttf"),
+		url("../fonts/roboto/Roboto-Medium.ttf"),
+		url("../fonts/roboto/Roboto-MediumItalic.ttf"),
+		url("../fonts/roboto/Roboto-Regular.ttf");
+}
+@font-face {
+	font-family: "fontawesome";
+	src: url("../fonts/fontawesome/FontAwesome.otf"),
+		url("../fonts/fontawesome/fontawesome-webfont.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    margin: 0 auto;
+}
+header {
+    background-image: url(../images/photo-1443996104801-80c82e789b18.png);
+    background-attachment: fixed;
+    background-size: cover;
+    min-width: 1200px;
+}
+header menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header menu div {
+    display: inline-block;
+    width: 49%;
+    padding: 30px;
+}
+header menu .left a {
+    margin-right: 30px;
+}
+header menu .right {
+    text-align: right;
+}
+header menu div a {
+    display: inline-block;
+}
+header menu .vk {
+    background: url(../images/vk.png);
+    width: 31px;
+    height: 17px;
+}
+header menu .git {
+    background: url(../images/github.png);
+    width: 26px;
+    height: 22px;
+}
+header menu .in {
+    background: url(../images/in.png);
+    width: 24px;
+    height: 22px;
+}
+header menu .menu {
+    background: url(../images/hamburger.png);
+    width: 40px;
+    height: 35px;
+}
+.ava{
+	margin: 84px auto;
+}
+.ava-r{
+	border-radius: 100px;
+    border: 3px solid #fff;
+}
+.my-ava{
+	text-align: center;
+}
+.my-ava h3{
+    color: #fff;
+    font: 500 35px "Roboto-Medium";
+    margin-top: 30px;
+}
+.my-ava p{
+    color: rgba(255, 255, 255, 0.8);
+    font: 300 16px "Roboto-Light";
+}
+.down, .up {
+    margin: 0 auto;
+    display: block;
+    background: url(../images/arrow_down.png);
+    width: 26px;
+    height: 16px;
+}
+.up {
+    background: url(../images/arrow_up.png);
+    margin-top: 50px;
+}
+.works {
+    position: relative;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 149px 0 36px;
+}
+.works p:before, .head p:before, section h3:before, form h3:before {
+    content: " ";
+    position: absolute;
+    width: 22px;
+    height: 5px;
+    top: 172px;
+    left: 535px;
+    background-color: rgba(55, 62, 66, 0.2);
+}
+.works p:after, .head p:after, section h3:after, form h3:after {
+    content: " ";
+    position: absolute;
+    width: 22px;
+    height: 5px;
+    top: 172px;
+    right: 538px;
+    background-color: rgba(55, 62, 66, 0.2);
+}
+section h3:before,  section h3:after {top: 225px}
+section h3:before {left: 208px}
+section h3:after {right: 210px}
+form h3:before,  form h3:after {top: 30px}
+form h3:before {left: 40px}
+form h3:after {right: 42px}
+.works p, .head p {
+    text-align: center;
+    color: #373e42;
+    font: 43px "BERNIERRegular";
+    text-transform: uppercase;
+}
+.about .head {
+    position: relative;
+    padding: 20px 0;
+}
+.head p:before, .head p:after {top: 43px;}
+.about {
+    background: url(../images/Untitled-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.about .one, .about .two {
+    position: relative;
+    width: 350px;
+    padding-top: 40px;
+    display: inline-block;
+}
+.one p, .two p {
+    color: #455a64;
+    font: 16px "Roboto-Regular";
+}
+.one p:before, .two p:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    width: 33px;
+    height: 29px;
+    background: url(../images/sk.png);
+}
+section h3, form h3 {
+    color: #455a64;
+    font: 23px "BERNIERRegular";
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+section h3 {margin-top: 150px}
+section {
+    text-align: center;
+    display: flex;
+}
+button .fa fa-link {
+    width: 20px;
+    height: 19px;
+    color: #fff;
+}
+section .item:last-of-type {
+    background-color: #efebe0;
+}
+section .item:first-of-type .desc {
+    color: #00bfa5;
+    text-transform: uppercase;
+    font: 16px "Roboto-Medium";
+    border-top: 1px solid #00bfa5; 
+    border-bottom: 1px solid #00bfa5; 
+    margin: 30px 140px;
+    padding: 10px 0;
+}
+section .item:first-of-type {
+    background-color: #f0efe9;
+}
+section .item {
+    position: relative;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    padding: 50px 0;
+}
+.item div:last-of-type {
+    display: flex;
+    justify-content: center;
+}
+.item button {
+    border: none;
+    width: 199px;
+    padding: 10px 0;
+    margin: 0 auto;
+    background-color: #00bfa5;
+    border-radius: 5px;
+}
+.item button:hover {
+    background-color: #26d8c0;
+    cursor: pointer;
+}
+.item a {
+    font: 16px "Roboto-Medium";
+    color: #fff;
+    text-decoration: none;
+}
+.one, .two {
+    margin: 0 20px;
+}
+.about {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.users img, .users span {
+    color: #00bfa5;
+    display: inline-block;
+    margin: 30px 0 0;
+    vertical-align: middle;
+}
+.users {
+    text-align: left;
+}
+.users img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+footer {
+    width: 100%;
+	min-width: 1200px;
+    background-color: rgba(55, 62, 66, 0.85);
+}
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+footer div p {
+	color: rgba(255, 255, 255, 0.5);
+    font: 16px "Roboto-Light";
+}
+footer div:first-of-type {padding: 10px 0}
+footer div:first-of-type .botleft a {
+    text-decoration: none;
+    color: #fff;
+    font: 16px "Roboto-Medium";
+    padding: 20px;
+}
+footer .botleft a:hover {
+    background-color: rgba(74, 81, 85, 0.85)
+}
+footer div:last-of-type {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+footer .vkb, footer .gitb, footer .inb {
+    display: block;
+    width: 36px;
+    height: 36px;
+    margin: 0 5px;
+}
+.botright {
+    display: inline-flex;
+    padding-right: 15px;
+}
+footer .vkb {background: url(../images/vkb.png)}
+footer .gitb {background: url(../images/gitb.png)}
+footer .inb {background: url(../images/inb.png)}
+footer .botright a:hover {background-size: cover;}
+footer .vkb:hover {background: url(../images/vkbh.png)}
+footer .gitb:hover {background: url(../images/gitbh.png)}
+footer .inb:hover {background: url(../images/inbh.png)}
+form textarea {
+    height: 100px;
+}
+form input[type="text"], form textarea {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    color: rgba(55, 62, 66, 0.5);
+    font: 16px "Roboto-Regular";
+    border-radius: 5px;
+}
+form {
+    position: relative;
+    border-radius: 5px;
+    width: 380px;
+    margin: 50px auto 0;
+    background: url(images/photo-1452630499973-8c722063e8a7.png);
+    background-size: cover;
+}
+form h3 {
+    font-size: 30px;
+}
+form div {
+    display: flex;
+}
+form div input {
+    border: none;
+    width: 190px;
+    height: 45px;
+    background-color: rgba(0, 191, 165, 0.3);
+    color: #fff;
+    font: 16px "Roboto-Medium";
+}
+form div input:first-of-type {border-bottom-left-radius: 5px}
+form div input:last-of-type {border-bottom-right-radius: 5px}
+form div input:hover {
+    background-color: rgba(0, 191, 165, 0.85);
+    cursor: pointer;
+}

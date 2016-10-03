@@ -1,0 +1,191 @@
+@font-face {
+	font-family: "__MACOSX";
+	src: url("../fonts/__MACOSX/._BERNIERDistressed-Regular.otf"),
+		url("../fonts/__MACOSX/._BERNIERRegular-Regular.otf"),
+		url("../fonts/__MACOSX/._BERNIERShade-Regular.otf");
+}
+@font-face {
+	font-family: "BERNIERRegular";
+	src: url("../fonts/bernier/BERNIERDistressed-Regular.otf"),
+		url("../fonts/bernier/BERNIERRegular-Regular.otf"),
+		url("../fonts/bernier/BERNIERShade-Regular.otf");
+}
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/roboto/Roboto-Bold.ttf"),
+		url("../fonts/roboto/Roboto-BoldItalic.ttf"),
+		url("../fonts/roboto/Roboto-Italic.ttf"),
+		url("../fonts/roboto/Roboto-Light.ttf"),
+		url("../fonts/roboto/Roboto-LightItalic.ttf"),
+		url("../fonts/roboto/Roboto-Medium.ttf"),
+		url("../fonts/roboto/Roboto-MediumItalic.ttf"),
+		url("../fonts/roboto/Roboto-Regular.ttf");
+}
+@font-face {
+	font-family: "fontawesome";
+	src: url("../fonts/fontawesome/FontAwesome.otf"),
+		url("../fonts/fontawesome/fontawesome-webfont.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../images/photo-1443996104801-80c82e789b18.png) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 1200px;
+}
+html {position: relative}
+html, body {min-height: 100%}
+.auto {
+    margin: 0 auto;
+    width: 380px;
+    background-color: rgba(252, 252, 252, 0.85);
+    margin-top: 147px;
+    position: relative;
+    border-radius: 5px;
+}
+.auto form {
+    padding: 33px 20px;
+}
+.auto form p:before {
+    content: " ";
+    position: absolute;
+    width: 22px;
+    height: 5px;
+    top: 50px;
+    left: 50px;
+    background-color: rgba(55, 62, 66, 0.2);
+}
+.auto form p:after {
+    content: " ";
+    position: absolute;
+    width: 22px;
+    height: 5px;
+    top: 50px;
+    right: 50px;
+    background-color: rgba(55, 62, 66, 0.2);
+}
+form p {
+    text-align: center;
+    color: #455a64;
+    font: 400 30px "BERNIERRegular";
+    text-transform: uppercase;
+}
+#log, #pass {
+    margin: 30px auto;
+    display: flex;
+}
+form div span i {
+    color: #c4cbcd;
+    padding: 13px;
+}
+input {
+    padding: 13px 0px 13px 13px;
+    width: 340px;
+    border: 0;
+    font: 400 16px Roboto-Regular;
+}
+#log span, #pass span {
+    width: 45px;
+    height: 45px;
+    background-color: #f0efe9;
+}
+div span {border-radius: 5px 0 0 5px}
+div input {border-radius: 0 5px 5px 0}
+.check {
+    text-align: center;
+}
+.check p {
+    color: rgba(69, 90, 100, 0.8);
+    font: 700 16px Roboto-Bold;
+    text-transform: none;
+}
+.radio {margin: 20px;}
+.radio span { 
+    margin: 30px;
+    color: rgba(69, 90, 100, 0.8);
+    font: 16px / 24px Roboto-Light;
+}
+.button {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+button {
+    width: 189px;
+    height: 45px;
+    background-color: #00bfa5;
+    margin: 0;
+    color: #fff;
+    font: 16px/36px Roboto-Medium;
+    border: 0;
+}
+.button a:first-of-type button {border-bottom-left-radius: 5px}
+.button a:last-of-type button{border-bottom-right-radius: 5px}
+button:hover {
+    background-color: #009688;
+    cursor: pointer;
+}
+------------------------------------
+.check input[type="checkbox"]+label { 
+    display: block; 
+    width: 21px; 
+    height: 20px; 
+    background: black;
+    border-radius: 1px; 
+} 
+.check input[type="checkbox"]:checked+label { 
+    background: url(../images/1.png);  
+} 
+.radio label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    font-size: 13px;
+}
+input[type=checkbox], input[type=radio] {
+    display: none;
+}
+.radio label:before {
+    content: " ";
+    display: inline-block;
+    width: 21px;
+    height: 20px;
+    top: -15px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fff;
+}
+input[type=radio]:checked + label:before {
+    content: "\2022";
+    color: #00bfa5;
+    font-size: 42px;
+    text-align: center;
+    line-height: 20px;
+}
+.yes:before {
+    left: 50px;
+}
+.no:before {
+    left: 10px;
+}
+.yes+span {margin-left: 50px}
+.no+span {margin-left: 15px}
+
+body>footer{ 
+    padding: 15px 0; 
+    position: absolute; 
+    bottom: 0; 
+    width: 100%; 
+    min-width:1200px; 
+} 
+body>footer p {
+    font: 14px/22px "Roboto-Light"; 
+    color: #fff; 
+    text-align: center; 
+    opacity: 0.5;  
+}

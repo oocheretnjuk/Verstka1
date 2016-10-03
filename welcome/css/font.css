@@ -1,0 +1,64 @@
+@font-face {
+	font-family: "_BERNIERDistressed-Regular";
+	src: url("../fonts/__MACOSX/._BERNIERDistressed-Regular.otf");
+	}
+@font-face {
+	font-family: "_BERNIERRegular-Regular";
+	src:url("../fonts/__MACOSX/._BERNIERRegular-Regular.otf");
+	}
+@font-face {
+	font-family: "_BERNIERShade-Regular.otf";
+	src:url("../fonts/__MACOSX/._BERNIERShade-Regular.otf");
+	}	
+@font-face {
+	font-family: "BERNIERDistressed-Regular";
+	src: url("../fonts/bernier/BERNIERDistressed-Regular.otf");
+	}
+@font-face {
+	font-family: "BERNIERRegular-Regular";
+	src:url("../fonts/bernier/BERNIERRegular-Regular.otf");
+	}
+@font-face {
+	font-family: "BERNIERShade-Regular";
+	src:url("../fonts/bernier/BERNIERShade-Regular.otf");
+	}
+@font-face {
+	font-family: "Roboto-Bold";
+	src: url("../fonts/roboto/Roboto-Bold.ttf");
+	}
+@font-face {
+	font-family: "Roboto-BoldItalic";
+	src:url("../fonts/roboto/Roboto-BoldItalic.ttf");
+	}
+@font-face {
+	font-family: "Roboto-Italic";
+	src:url("../fonts/roboto/Roboto-Italic.ttf");
+	}
+@font-face {
+	font-family: "Roboto-Light";
+	src:url("../fonts/roboto/Roboto-Light.ttf");
+	}
+@font-face {
+	font-family: "Roboto-LightItalic";
+	src:url("../fonts/roboto/Roboto-LightItalic.ttf");
+	}
+@font-face {
+	font-family: "Roboto-Medium";
+	src:url("../fonts/roboto/Roboto-Medium.ttf");
+	}
+@font-face {
+	font-family: "Roboto-MediumItalic";
+	src:url("../fonts/roboto/Roboto-MediumItalic.ttf");
+	}
+@font-face {
+	font-family: "Roboto-Regular";
+	src:url("../fonts/roboto/Roboto-Regular.ttf");
+	}
+@font-face {
+	font-family: "FontAwesome";
+	src: url("../fonts/fontawesome/FontAwesome.otf");
+	}
+@font-face {
+	font-family: "fontawesome-webfont";
+	src:url("../fonts/fontawesome/fontawesome-webfont.ttf");
+	}
